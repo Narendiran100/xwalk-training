@@ -8,10 +8,10 @@ export default async function decorate(block) {
 
   // fetch placeholders from the 'en' folder
   const placeholders = await fetchPlaceholders();
-  const { QuoteText } = placeholders;
+  const { quoteText } = placeholders;
   //block.appendChild(QuoteText);
   const suffix = document.createElement("span");
   suffix.classList.add("quote-suffix");
-  suffix.textContent = QuoteText.textContent.trim();
+  suffix.textContent = quoteText;
   block.appendChild(suffix);
 }
