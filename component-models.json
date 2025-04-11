@@ -227,7 +227,7 @@
       },
       {
         "component": "aem-tag",
-        "name": "cq:tags",
+        "name": "tags",
         "valueType": "string",
         "lable": "Tags",
         "description": "The tags for this component"
