@@ -4,7 +4,8 @@
     "/content/xwalk-site/configuration:/.helix/config.json",
     "/content/xwalk-site/metadata:/metadata.json",
     "/content/xwalk-site/placeholders:/placeholders.json",
-    "/content/xwalk-site/redirects:/redirects.json"
+    "/content/xwalk-site/redirects:/redirects.json",
+    "/content/xwalk-site/taxonomy:/taxonomy.json"
   ],
   "includes": ["/content/xwalk-site/"]
 }
