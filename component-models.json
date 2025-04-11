@@ -226,6 +226,13 @@
         "valueType": "string"
       },
       {
+        "component": "aem-tag",
+        "name": "cq:tags",
+        "valueType": "string",
+        "lable": "Tags",
+        "description": "The tags for this component"
+      },
+      {
         "component": "text",
         "name": "author",
         "value": "",
