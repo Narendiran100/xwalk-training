@@ -253,6 +253,28 @@
             "value": "bg-blue"
           }
         ]
+      },
+      {
+        "component": "boolean",
+        "name": "showHeading",
+        "valueType": "boolean",
+        "label": "Show Quote as Heading",
+        "description": "If checked, the quote will be shown as a heading instead of a paragraph."
+      },
+      {
+        "component": "select",
+        "name": "headingType",
+        "label": "Heading Type",
+        "valueType": "string",
+        "condition": { "===": [{ "var": "showHeading" }, true] },
+        "options": [
+          { "name": "H1", "value": "h1" },
+          { "name": "H2", "value": "h2" },
+          { "name": "H3", "value": "h3" },
+          { "name": "H4", "value": "h4" },
+          { "name": "H5", "value": "h5" },
+          { "name": "H6", "value": "h6" }
+        ]
       }
     ]
   }
