@@ -2,9 +2,9 @@
   "mappings": [
     "/content/xwalk-site/:/",
     "/content/xwalk-site/configuration:/.helix/config.json",
-    "/content/xwalk-site/metadata:/metadata.json"
+    "/content/xwalk-site/metadata:/metadata.json",
+    "/content/xwalk-site/placeholders:/placeholders.json",
+    "/content/xwalk-site/redirects:/redirects.json"
   ],
-  "includes": [
-    "/content/xwalk-site/"
-  ]
+  "includes": ["/content/xwalk-site/"]
 }
